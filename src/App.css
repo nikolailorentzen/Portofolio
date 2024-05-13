@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
+.cursor-gradient {
+  background-image: radial-gradient(circle, rgba(63, 63, 63, 0.2) 0%, rgba(63, 63, 63, 0) 70%);
   pointer-events: none;
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+  z-index: 9998;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+.scroller:hover .item{
+  animation-play-state: paused;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+#html5 {
+  /* Your CSS styles for the HTML5 icon */
 }
 
-.App-link {
-  color: #61dafb;
+/* CSS for the remaining icons */
+#css3 {
+  /* Your CSS styles for the CSS3 icon */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#js {
+  /* Your CSS styles for the JavaScript icon */
+}
+
+#python {
+  /* Your CSS styles for the Python icon */
+}
+
+#swift {
+  /* Your CSS styles for the Swift icon */
 }
