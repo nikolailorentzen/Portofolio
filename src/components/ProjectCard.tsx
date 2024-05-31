@@ -32,10 +32,11 @@ const ProjectCard = ({title, year, subtitle, description, github} : {title?: str
             <p className="text-md text-slate-400 tracking-tight pt-2 group-hover:hidden">{description}</p>
           </div>
           <div className="text-sm text-slate-200 tracking-tight flex gap-2 group-hover:hidden">
+            <Chip text="JS"/>
             <Chip text="REACT"/>
+            <Chip text="CSS3"/>
             <Chip text="TYPESCRIPT"/>
             <Chip text=".NET"/>
-            <Chip text="C#"/>
           </div>
         </div>
       </div>

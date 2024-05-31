@@ -13,6 +13,7 @@ export const Projects = () => {
                 year="2022"
                 description="My exam submission for our first big fullstack exam. Under construction, check back later for more info coming soon."
                 github="https://github.com/NikolaiLorentzen/ElectricGames"/>
+            <p className="text-lg text-slate-400 tracking-tight pt-10">More coming soon...</p>
         </section>
     )
 }
