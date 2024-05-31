@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react';
 import './App.css';
 import SocialMediaButtons from './components/SocialMediaButtons';
 import Navigation from './components/Navigation';

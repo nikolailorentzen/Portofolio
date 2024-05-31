@@ -5,7 +5,6 @@ import { faSquareGithub } from "@fortawesome/free-brands-svg-icons"
 
 const ProjectCard = ({title, year, subtitle, description, github} : {title?: string, year?: string, subtitle?: string, description?: string, github?: string}) => {
   const [bgIndex, setBgIndex] = useState(0);
-  const [test, setTest] = useState("d");
   const [isHovered, setIsHovered] = useState(false); // Define isHovered state variable
   const backgroundImages = ["bg-electric1", "bg-electric2", "bg-electric3"];
 
@@ -13,9 +12,8 @@ const ProjectCard = ({title, year, subtitle, description, github} : {title?: str
     setBgIndex((prevIndex) => (prevIndex + 1) % backgroundImages.length);
   };
 
-  const goToProjectGit = (e: React.MouseEvent<SVGSVGElement>) => {
+  const stopProp = (e: React.MouseEvent<SVGSVGElement>) => {
     e.stopPropagation();
-    setTest("ff");
   }
 
   return (
@@ -26,8 +24,8 @@ const ProjectCard = ({title, year, subtitle, description, github} : {title?: str
           <div>
             <div className="flex items-center justify-between group-hover:justify-end group">
               <p className="text-2xl text-slate-200 tracking-tight group-hover:hidden">{title}</p>
-              <a href={github} target="_blank">
-                <FontAwesomeIcon icon={faSquareGithub} size="2x" className="aboslute invisible group-hover:visible text-slate-200 hover:text-teal-300 hover:scale-110 transition-colors transition-transform duration-300 z-30" onClick={goToProjectGit}/>
+              <a href={github} target="_blank" rel="noreferrer">
+                <FontAwesomeIcon icon={faSquareGithub} size="2x" className="aboslute invisible group-hover:visible text-slate-200 hover:text-teal-300 hover:scale-110 transition-colors transition-transform duration-300 z-30" onClick={stopProp}/>
               </a>
             </div>
             <p className="text-md text-slate-200 tracking-tight group-hover:hidden">{year}</p>
