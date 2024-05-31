@@ -4,8 +4,8 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const SocialMediaButtons = () => {
   const socialMediaIcons = [
-    { name: 'github', icon: faGithub, link: 'https://www.github.com/paaulsens' },
-    { name: 'linkedin', icon: faLinkedin, link: 'https://no.linkedin.com/in/nikolai-lorentzen-7613122b7?trk=people-guest_people_search-card' },
+    { name: 'github', icon: faGithub, link: "https://github.com/NikolaiLorentzen" },
+    { name: 'linkedin', icon: faLinkedin, link: "https://no.linkedin.com/in/nikolai-lorentzen-7613122b7?trk=people-guest_people_search-card" },
   ];
 
   return (

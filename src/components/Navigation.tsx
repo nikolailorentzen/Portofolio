@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Nav = () => {
+const Navigation = () => {
 
     const [selected, setSelected] = useState<string | null>("about");
 
@@ -9,9 +9,17 @@ const Nav = () => {
         
         if (dataTag) {
             setSelected(dataTag);
-        }
-        else{
+            scrollToSection(dataTag);
+        } else {
             console.log("data-tag not found for HTMLElement")
+        }
+    };
+
+    const scrollToSection = (sectionId: string) => {
+        const section = document.getElementById(sectionId);
+        
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
         }
     };
 
@@ -38,5 +46,5 @@ const Nav = () => {
       );
     };
     
-    export default Nav;
+    export default Navigation;
     
