@@ -3,7 +3,7 @@ import '../App.css';
 export const About = () => {
     
     return(
-        <section className="p-5 sm:p-0">
+        <section>
             <p className="text-lg text-slate-200 tracking-tight ">ABOUT</p>
             <hr className="border-slate-500"/>
             <div className="flex flex-col gap-5 pt-5">

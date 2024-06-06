@@ -6,7 +6,7 @@ const Experience = () => {
     
 
     return (
-        <section id="experience" className="m-5 sm:m-0">
+        <section id="experience" className="">
 
             <div className="flex items-end justify-between">
                 <p className="text-lg text-slate-200 tracking-tight pt-5 sm:pt-20">EXPERIENCE</p>

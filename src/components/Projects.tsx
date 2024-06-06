@@ -5,7 +5,7 @@ import ProjectCard from './ProjectCard';
 export const Projects = () => {
 
     return(
-        <section id="projects" className="px-5 sm:px-0">
+        <section id="projects">
             <p className="text-lg text-slate-200 tracking-tight pt-5 sm:pt-20">PROJECTS</p>
             <hr className="border-slate-500 pb-5"/>
             <ProjectCard 
