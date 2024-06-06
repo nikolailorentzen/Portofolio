@@ -24,7 +24,7 @@ const Experience = () => {
                 year="2024 | Spring"
                 title="Kristiania University College"
                 subtitle="Frontend and Mobile Development"
-                description="The final semester. This semester was fully dedicated to our bachelors project. Me and my collegues were stationed at Norges Idrettsforbund (NIF for short), and helped them continue delevopment of their Vue/Vuetify3 web application. A few months in the product owners decided to convert their solution into a native .NET MAUI app where they also hired a team from Sopra Steria to help us get a headstart on the project. I learned alot from this valuable experience, as I was introduced to using Azure DevOps for managing sprints and tasks/bugs, and participated daily standup meetings and demos. This allowed me to get a feel of how the daily life of a frontend developer looks like, and on top of all this I got to work side by side with some brilliant people."
+                description="The final semester. This semester was fully dedicated to our bachelors project. Me and my collegues were stationed at Norges Idrettsforbund (NIF), and helped them continue delevopment of their Vue/Vuetify3 web application. A few months into the project the product owners decided they wanted to convert their solution into a native .NET MAUI app where they also hired a team from Sopra Steria to help us get a headstart on the project. I learned alot from this valuable experience, as I was introduced to using Azure DevOps for managing sprints and tasks/bugs, and participated daily standup meetings and demos. This allowed me to get a feel of how the daily life of a frontend developer looks like, and on top of all this I got to work side by side with some brilliant coders from the Sopra Steria team."
                 skills={["VUE", "VUETIFY3", ".NET MAUI", "DEVOPS", "AGILE", "FIGMA"]}
             />
 
@@ -32,23 +32,23 @@ const Experience = () => {
                 year="2023 | Autumn"
                 title="Kristiania University College"
                 subtitle="Frontend and Mobile Development"
-                description="The fifth semester. TO BE CONTINUED"
-                skills={["SWIFT", "REACT NATIVE", "AGILE"]}
+                description="The fifth semester. This was a really fun semester for me. I got to develop an iOS app using Swift and SwiftUI, as well as another larger group project in which we developed a react native app, again using agile methods. The app is called TravelSnap and works like a social network application for traveling."
+                skills={["SWIFT", "REACT NATIVE", "TYPESCRIPT", "AGILE"]}
             />
 
             <ExperienceItem 
                 year="2023 | Spring"
                 title="Kristiania University College"
                 subtitle="Frontend and Mobile Development"
-                description="The fourth semester. TO BE CONTINUED"
+                description="The fourth semester. This semester we learned python basics and developed a small video game with Unity using the Unity tool and C# scripts. In addition to individual projects, we participated in a larger group project with focus on agile methodologies, including the Scrum framework and sprints."
                 skills={["REACT", "CSS3", "AGILE", "PYTHON", "UNITY"]}
             />
-            
+
             <ExperienceItem 
                 year="2022 | Autumn"
                 title="Kristiania University College"
                 subtitle="Frontend and Mobile Development"
-                description="The third semester. This was a semester was a load of fun. I was introduced to Kotlin and Android development and made an Android application that communicated with ''Edamame API''. We ended the semester with a big full-stack project where I made a database and a C# web API along with react/bootstrap frontend. The end result can be found in Projects > ElectricGames."
+                description="The third semester. This was a semester was a load of fun. I was introduced to Kotlin and Android development and made an Android application that communicated with ''Rick and Morty API''. We ended the semester with a big full-stack project where I made a database and a C# web API along with react/bootstrap frontend."
                 skills={["REACT", "BOOTSTRAP", ".NET", "C#", "API", "KOTLIN", "ANDROID"]}
             />
 
@@ -56,7 +56,7 @@ const Experience = () => {
                 year="2022 | Spring"
                 title="Kristiania University College"
                 subtitle="Frontend and Mobile Development"
-                description="The second semester. This was a big step towards ''understanding'' code for me. Although Java today is not my favorite language, I learned alot about general code structure and object oriented elements."
+                description="The second semester. This was a big step towards ''understanding'' code for me. Although Java today is not my favorite programming language, I learned a lot about general code structure and object oriented elements."
                 skills={["JAVA", "OBJECT ORIENTED PROGRAMING", "FIGMA"]}
             />
 
