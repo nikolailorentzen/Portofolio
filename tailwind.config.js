@@ -14,22 +14,23 @@ module.exports = {
         '-10': '-10',
         '-20': '-20',
       },
+      fontFamily: {
+        'inter': ['Inter-Regular', 'sans-serif'],
+      },
+      fontWeight: {
+       '550': '550'
+      },
       backgroundImage: {
         "pfp1": "url('./images/pfp1.png')",
         "pfp2": "url('./images/1243.png')",
         "pfp3": "url('./images/pfp3.png')",
         "electric1": "url('./images/electric1.PNG')",
         "electric2": "url('./images/electric2.PNG')",
-        "electric3": "url('./images/electric3.PNG')"
+        "electric3": "url('./images/electric3.PNG')",
+        "no": "url('./images/norway.png')",
+        "en-us": "url('./images/united-states.png')"
       },
-      animation:{
-        "loop-scroll": "scroll-horizontal 1s linear infinite"
-      },
-      keyframes:{
-        "scroll-horizontal":{
-          to: {transform: "translateX(-108%)"}
-        }
-      }},
+    },
   },
   plugins: [],
 }

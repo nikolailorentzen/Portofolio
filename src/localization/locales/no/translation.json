@@ -1,0 +1,35 @@
+{
+    "about": "om meg",
+    "experience": "erfaring",
+    "projects": "prosjekter",
+    "frontendDeveloper": "Frontend-utvikler",
+    "beautifulDesigns": "Med en sans for vakre design.",
+    "helloThere": "Heisann! ",
+    "enjoyYourStay": " nyt besøket.",
+    "introduction": {
+        "paragraph1": "Jeg er en 27 år gammel aspirerende frontend- og mobilutvikler som nettopp har fullført min bachelorgrad innen feltet.",
+        "paragraph2": "Mitt første møte med koding skjedde i ung alder, drevet av min fascinasjon for vår hjemmedatamaskin. Det var rundt 2005-2006 da jeg først ble introdusert til med HTML, og lagde enkle og kreative nettsteder på det sosiale nettverket 'Piczo'.",
+        "paragraph3": "Det var imidlertid ikke før i 2021 at jeg igjen tente lidenskapen for koding, drevet av nysgjerrighet på hvordan man lager en mobilapp. Dette avgjørende øyeblikket førte meg til min nåværende utdannelsesvei, og jeg angrer ikke et sekund. Jeg finner glede og tilfredsstillelse i de kreative aspektene ved frontend-utvikling, hvor hver linje med kode blir som et penselstrøk på et digitalt lerret.",
+        "paragraph4": "Ta deg en titt, og "
+    }, 
+    "spring": "Vår",
+    "autumn": "Høst",
+    "viewResume": "Vis CV",
+    "kristianiaUniversityCollege": "Høyskolen Kristiania",
+    "FrontendAndMobileDevelopment": "Frontend- og Mobilutvikling",
+    "education": {
+        "sixthSemester": "Siste semester. Dette semesteret var fullstendig dedikert til vårt bachelorprosjekt. Mine kollegaer og jeg var stasjonert hos Norges Idrettsforbund (NIF) og hjalp dem med å fortsette utviklingen av deres Vue/Vuetify3 webapplikasjon. Et par måneder inn i prosjektet bestemte produktlederne seg for å konvertere løsningen til en native .NET MAUI-app, hvor de også ansatte et team fra Sopra Steria for å hjelpe oss med å komme i gang med prosjektet. Jeg lærte mye av denne verdifulle erfaringen, da jeg ble introdusert for bruk av Azure DevOps for å administrere sprinter og oppgaver/feil, og deltok i daglige standup-møter og demonstrasjoner. Dette ga meg en følelse av hvordan hverdagen til en frontend-utvikler ser ut, og i tillegg til alt dette fikk jeg jobbe side om side med noen briljante koder fra Sopra Steria-teamet.",
+        "fifthSemester": "Det femte semesteret. Dette var et veldig morsomt semester for meg. Jeg fikk utvikle en iOS-app ved hjelp av Swift og SwiftUI, samt et annet større gruppeprosjekt der vi utviklet en React Native-app, igjen ved hjelp av smidige metoder. Appen heter TravelSnap og fungerer som et sosialt nettverk for reise.",
+        "fourthSemester": "Det fjerde semesteret. Dette semesteret lærte vi grunnleggende om Python og utviklet et lite videospill med Unity ved hjelp av Unity-verktøyet og C#-skript. I tillegg til individuelle prosjekter deltok vi i et større gruppeprosjekt med fokus på smidige metodikker, inkludert rammeverket Scrum og sprinter.",
+        "thirdSemester": "Det tredje semesteret. Dette var et morsomt semester. Jeg ble introdusert for Kotlin og Android-utvikling og laget en Android-applikasjon som kommuniserte med ''Rick and Morty API''. Vi avsluttet semesteret med et stort full-stack-prosjekt der jeg lagde en database og en C# web-API sammen med et React/Bootstrap-frontend.",
+        "secondSemester": "Det andre semesteret. Dette var et stort skritt mot å ''forstå'' kode for meg. Selv om Java i dag ikke er mitt favorittprogrammeringsspråk, lærte jeg mye om generell kodestruktur og objektorienterte elementer.",
+        "firstSemester": "Første semester av min studie innen Frontend- og Mobilutvikling. Jeg ble introdusert for ren JavaScript, HTML og CSS, samt noen grunnleggende SQL."
+    },
+    "project": {
+        "electricGames": "Dette er mitt bidrag til min første store fullstack-eksamen. Frontenden er bygget med React.js og TypeScript, stylet med custom-CSS, og backenden drives av .NET."
+    },
+    "comingSoon": "Mer kommer snart...",
+    "agile": "smidig",
+    "objectOrientedProgramming": "objektorientert programmering",
+    "databases": "databaser"
+}

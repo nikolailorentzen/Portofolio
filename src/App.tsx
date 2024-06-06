@@ -4,13 +4,14 @@ import Navigation from './components/Navigation';
 import About from './components/About';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
+import LanguageSwitcher from './components/LanguageSwitcher';
 
 const App = () => {
-  
+
   return (
     <div className="relative w-screen h-screen bg-transparent overflow-scroll-y overflow-x-hidden h-full">
         <div className="flex flex-col lg:flex-row lg:mx-auto min-h-screen max-w-screen-xl font-sans px-7 lg:px-16 items-center">
-          <div className="flex flex-col self-start w-full lg:w-1/2 lg:sticky lg:top-0 lg:justify-between  lg:min-h-screen lg:h-screen lg:py-24 py-7 pb-14">
+          <div className="flex flex-col self-start w-full lg:w-1/2 lg:sticky lg:top-0 lg:justify-between lg:min-h-screen lg:h-screen lg:py-24 py-7 pb-14">
             <header className="min-w-80">
               <div className="flex gap-3 sm:gap-7 items-center">
                 <div>

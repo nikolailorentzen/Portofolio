@@ -22,7 +22,6 @@
   src: url('./fonts/Inter-Regular.ttf') format('truetype');
 }
 
-
 @font-face {
   font-family: 'Play-Bold';
   src: url('./fonts/Play-Bold.ttf') format('truetype');
@@ -32,9 +31,6 @@
   font-family: 'Play-Regular';
   src: url('./fonts/Play-Regular.ttf') format('truetype');
 }
-
-
-
 
 @font-face {
   font-family: 'Roboto-Black';
@@ -56,7 +52,6 @@
   src: url('./fonts/Roboto-Regular.ttf') format('truetype');
 }
 
-
 @font-face {
   font-family: 'Roboto-Light';
   src: url('./fonts/Roboto-Light.ttf') format('truetype');
@@ -67,12 +62,9 @@
   src: url('./fonts/Roboto-Thin.ttf') format('truetype');
 }
 
-
-
-
 body {
   margin: 0;
-  font-family: Inter-Regular;
+  font-family: "sans";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #1e293b;

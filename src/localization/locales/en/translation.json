@@ -1,0 +1,35 @@
+{
+    "about": "about",
+    "experience": "experience",
+    "projects": "projects",
+    "frontendDeveloper": "Frontend Developer",
+    "beautifulDesigns": "With a mind for beautiful designs.",
+    "helloThere": "Hello there! ",
+    "enjoyYourStay": " enjoy your stay.",
+    "introduction": {
+        "paragraph1": "I'm a 27-year-old aspiring frontend and mobile developer on the verge of completing my bachelor's degree in the field.",
+        "paragraph2": "My first encounter with coding happened at a young age, fueled by my fascination with our household computer. It was around 2005-2006 when I had my first taste of HTML, crafting simple and creative websites on the social network of 'Piczo'.",
+        "paragraph3": "However, it wasn't until 2021 that I reignited my passion for coding, driven by curiosity on how to create a mobile app. This pivotal moment led me to my current educational path, and I don't regret it a moment. I find joy and fulfillment in the creative aspects of frontend development, where every line of code becomes a brushstroke on a digital canvas.",
+        "paragraph4": "Take a look around, and"
+    }, 
+    "spring": "Spring",
+    "autumn": "Autumn",
+    "viewResume": "View résumé",
+    "kristianiaUniversityCollege": "Kristiania University College",
+    "FrontendAndMobileDevelopment": "Frontend and Mobile Development",
+    "education": {
+        "sixthSemester": "The final semester. This semester was fully dedicated to our bachelors project. Me and my collegues were stationed at Norges Idrettsforbund (NIF), and helped them continue delevopment of their Vue/Vuetify3 web application. A few months into the project the product owners decided they wanted to convert their solution into a native .NET MAUI app where they also hired a team from Sopra Steria to help us get a headstart on the project. I learned alot from this valuable experience, as I was introduced to using Azure DevOps for managing sprints and tasks/bugs, and participated daily standup meetings and demos. This allowed me to get a feel of how the daily life of a frontend developer looks like, and on top of all this I got to work side by side with some brilliant coders from the Sopra Steria team.",
+        "fifthSemester": "The fifth semester. This was a really fun semester for me. I got to develop an iOS app using Swift and SwiftUI, as well as another larger group project in which we developed a react native app, again using agile methods. The app is called TravelSnap and works like a social network application for traveling.",
+        "fourthSemester": "The fourth semester. This semester we learned python basics and developed a small video game with Unity using the Unity tool and C# scripts. In addition to individual projects, we participated in a larger group project with focus on agile methodologies, including the Scrum framework and sprints.",
+        "thirdSemester": "The third semester. This was a semester was a load of fun. I was introduced to Kotlin and Android development and made an Android application that communicated with ''Rick and Morty API''. We ended the semester with a big full-stack project where I made a database and a C# web API along with react/bootstrap frontend.",
+        "secondSemester": "The second semester. This was a big step towards ''understanding'' code for me. Although Java today is not my favorite programming language, I learned a lot about general code structure and object oriented elements.",
+        "firstSemester": "The first semester of my Frontend- and Mobile development study. I was introduced to plain JavaScript, HTML and CSS, as well as some basic SQL."
+    },
+    "project": {
+        "electricGames": "This is my submission for my first big fullstack exam. The front end is built with React.js and TypeScript, styled with custom CSS, and the backend is powered by .NET."
+    },
+    "comingSoon": "More coming soon...",
+    "agile": "agile",
+    "objectOrientedProgramming": "object oriented programming",
+    "databases": "databases"
+}
