@@ -42,7 +42,7 @@ const Experience = () => {
                 title={t('kristianiaUniversityCollege')}
                 subtitle={t("FrontendAndMobileDevelopment")}
                 description={t("education.fourthSemester")}
-                skills={["REACT", "CSS3", "AGILE", "PYTHON", "UNITY"]}
+                skills={["REACT", "CSS3", t("agile"), "PYTHON", "UNITY"]}
             />
 
             <ExperienceItem 
