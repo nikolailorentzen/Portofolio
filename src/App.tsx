@@ -17,10 +17,10 @@ const App = () => {
               <div className="flex gap-3 sm:gap-7 items-center">
                 <div>
                 <a href="pfp1.png" target="_blank">
-                    <div className="bg-pfp1 bg-cover bg-center cursor-pointer h-20 w-20 sm:h-28 sm:w-28 rounded-full pl-3 border-2 border-transparent hover:border-teal-300 hover:scale-110 all-transitions duration-300"></div>
+                    <div className="bg-pfp1 bg-cover bg-center cursor-pointer h-20 w-20 sm:h-28 sm:w-28 rounded-full border-2 border-transparent hover:border-teal-300 hover:scale-110 all-transitions duration-300"></div>
                 </a>
                 </div>
-                <div>
+                <div className="pl-3">
                   <h1 className="text-3xl sm:text-4xl text-slate-200 tracking-tight sm:pb-2 whitespace-nowrap"> Nikolai Lorentzen</h1>
                   <h1 className="text-lg sm:text-xl text-slate-400 tracking-tight">{t("frontendDeveloper")}</h1>
                   <h1 className="text-md sm:text-lg text-slate-500 tracking-tight">{t("beautifulDesigns")}</h1>
