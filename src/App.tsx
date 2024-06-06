@@ -11,11 +11,19 @@ const App = () => {
     <div className="relative w-screen h-screen bg-transparent overflow-scroll-y overflow-x-hidden h-full">
         <div className="flex flex-col lg:flex-row lg:mx-auto min-h-screen max-w-screen-xl font-sans px-7 lg:px-24  items-center">
 
-          <div className="flex flex-col self-start lg:sticky lg:top-0 lg:justify-between w-1/2 lg:min-h-screen lg:h-screen lg:py-24 py-7 pb-14">
+          <div className="flex flex-col self-start w-full lg:sticky lg:top-0 lg:justify-between w-1/2 lg:min-h-screen lg:h-screen lg:py-24 py-7 pb-14">
             <header className="min-w-80">
-              <h1 className="text-4xl text-slate-200 tracking-tight pb-2">Nikolai Lorentzen</h1>
-              <h1 className="text-xl text-slate-400 tracking-tight">Frontend Developer</h1>
-              <h1 className="text-lg text-slate-500 tracking-tight">With a mind for beautiful designs.</h1>
+              <div className="flex gap-5">
+                <div>
+                  <div className="bg-electric1 h-28 w-28 rounded-full"></div>
+                </div>
+                <div>
+                  <h1 className="text-3xl sm:text-4xl text-slate-200 tracking-tight pb-2">Nikolai Lorentzen</h1>
+                  <h1 className="text-lg sm:text-xl text-slate-400 tracking-tight">Frontend Developer</h1>
+                  <h1 className="text-md sm:text-lg text-slate-500 tracking-tight">With a mind for beautiful designs.</h1>
+                </div>
+              </div>
+              
               <Navigation/>
             </header>
             <footer className="pt-10 lg:pt-0 ">
@@ -28,7 +36,7 @@ const App = () => {
             <Experience/>
             <Projects/>
           </main>
-          
+
         </div>
     </div>
   );
