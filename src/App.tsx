@@ -4,8 +4,10 @@ import Navigation from './components/Navigation';
 import About from './components/About';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
+import { useTranslation } from 'react-i18next';
 
 const App = () => {
+  const { t } = useTranslation()
 
   return (
     <div className="relative w-screen h-screen bg-transparent overflow-scroll-y overflow-x-hidden h-full">
@@ -19,9 +21,9 @@ const App = () => {
                 </a>
                 </div>
                 <div>
-                  <h1 className="text-3xl sm:text-4xl text-slate-200 tracking-tight sm:pb-2 whitespace-nowrap">Nikolai Lorentzen</h1>
-                  <h1 className="text-lg sm:text-xl text-slate-400 tracking-tight">Frontend Developer</h1>
-                  <h1 className="text-md sm:text-lg text-slate-500 tracking-tight">With a mind for beautiful designs.</h1>
+                  <h1 className="text-3xl sm:text-4xl text-slate-200 tracking-tight sm:pb-2 whitespace-nowrap"> Nikolai Lorentzen</h1>
+                  <h1 className="text-lg sm:text-xl text-slate-400 tracking-tight">{t("frontendDeveloper")}</h1>
+                  <h1 className="text-md sm:text-lg text-slate-500 tracking-tight">{t("beautifulDesigns")}</h1>
                 </div>
               </div>
               
