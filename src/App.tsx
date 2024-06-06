@@ -17,7 +17,7 @@ const App = () => {
               <div className="flex gap-3 sm:gap-7 items-center">
                 <div>
                 <a href="pfp1.png" target="_blank">
-                    <div className="bg-pfp1 bg-cover bg-center cursor-pointer h-20 w-20 sm:h-28 sm:w-28 rounded-full pr-5 border-2 border-transparent hover:border-teal-300 hover:scale-110 all-transitions duration-300"></div>
+                    <div className="bg-pfp1 bg-cover bg-center cursor-pointer h-20 w-20 sm:h-28 sm:w-28 rounded-full pl-3 border-2 border-transparent hover:border-teal-300 hover:scale-110 all-transitions duration-300"></div>
                 </a>
                 </div>
                 <div>
