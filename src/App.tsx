@@ -25,7 +25,7 @@ const App = () => {
           </div>
 
            {/* Right Section */}
-          <main id="about" className="flex flex-col gap-10 lg:w-1/2 lg:py-24 lg:mb-0 lg:mx-10 mb-10 w-96 sm:w-auto">
+          <main id="about" className="flex flex-col gap-10 sm:gap-0 lg:w-1/2 lg:py-24 lg:mb-0 lg:mx-10 mb-10 w-96 sm:w-auto">
             <About/>
             <Experience/>
             <Projects/>
