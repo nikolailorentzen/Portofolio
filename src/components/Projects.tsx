@@ -11,8 +11,9 @@ export const Projects = () => {
             <ProjectCard 
                 title="ELECTRIC GAMES"
                 year="2022"
-                description="My exam submission for our first big fullstack exam. Under construction, check back later for more info coming soon."
-                github="https://github.com/NikolaiLorentzen/ElectricGames"/>
+                description="This is my submission for my first big fullstack exam. The front end is built with React.js and TypeScript, styled with custom CSS, and the backend is powered by .NET."
+                github="https://github.com/NikolaiLorentzen/ElectricGames"
+                skills={["JS", "REACT", "CSS3", "TYPESCRIPT", ".NET"]}/>
             <p className="text-lg text-slate-400 tracking-tight pt-14">More coming soon...</p>
         </section>
     )

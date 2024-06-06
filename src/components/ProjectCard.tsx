@@ -3,9 +3,9 @@ import Chip from './Chip';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faSquareGithub } from "@fortawesome/free-brands-svg-icons"
 
-const ProjectCard = ({title, year, subtitle, description, github} : {title?: string, year?: string, subtitle?: string, description?: string, github?: string}) => {
+const ProjectCard = ({title, year, subtitle, description, github, skills} : {title?: string, year?: string, subtitle?: string, description?: string, github?: string, skills?:string[]}) => {
   const [bgIndex, setBgIndex] = useState(0);
-  const [isHovered, setIsHovered] = useState(false); // Define isHovered state variable
+  const [isHovered, setIsHovered] = useState(false);
   const backgroundImages = ["bg-electric1", "bg-electric2", "bg-electric3"];
 
   const nextImage = () => {
@@ -17,7 +17,7 @@ const ProjectCard = ({title, year, subtitle, description, github} : {title?: str
   }
 
   return (
-    <div className="relative min-w-96 min-h-64 [perspective:1000px] cursor-pointer group" onClick={nextImage} onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+    <div className="relative min-w-80 min-h-64 [perspective:1000px] cursor-pointer group" onClick={nextImage} onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
       <div className={`card rounded-3xl absolute inset-0 [backface-visibility:hidden] ${backgroundImages[bgIndex]} bg-cover bg-center hover:bg-slate-300 hover:bg-opacity-10 text-slate-500 flex justify-center items-center group all-transitions duration-300`}>
         <div className="backdrop-blur-sm bg-gray-900 bg-opacity-75 absolute inset-0 w-full h-full rounded-3xl group-hover:backdrop-blur-none group-hover:bg-opacity-0 all-transitions duration-500 z-10" onClick={nextImage}/>
         <div className="backdrop-blur-none flex flex-col w-full h-full bg-transparent justify-between p-5 z-20"> 
@@ -31,12 +31,10 @@ const ProjectCard = ({title, year, subtitle, description, github} : {title?: str
             <p className="text-md text-slate-200 tracking-tight group-hover:hidden">{year}</p>
             <p className="text-md text-slate-400 tracking-tight pt-2 group-hover:hidden">{description}</p>
           </div>
-          <div className="text-sm text-slate-200 tracking-tight flex gap-2 group-hover:hidden">
-            <Chip text="JS"/>
-            <Chip text="REACT"/>
-            <Chip text="CSS3"/>
-            <Chip text="TYPESCRIPT"/>
-            <Chip text=".NET"/>
+          <div className="text-sm text-slate-200 tracking-tight flex gap-2 pt-3 flex-wrap group-hover:hidden">
+            {skills?.map(skill => (
+              <Chip key={skill} text={skill} />
+            ))}
           </div>
         </div>
       </div>
