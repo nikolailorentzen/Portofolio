@@ -8,7 +8,7 @@ export const ExperienceItem = ({ year, title, subtitle, description, skills } : 
         <span className="text-slate-200 font-semibold">{title}</span> • {subtitle}
       </p>
       <p className="text-md text-slate-400 tracking-tight">{description}</p>
-      <div className="flex my-2 gap-2">
+      <div className="flex flex-wrap my-2 gap-2">
         {skills.map(skill => (
           <Chip key={skill} text={skill} />
         ))}
