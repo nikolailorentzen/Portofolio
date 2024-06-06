@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div className="relative w-screen h-screen bg-transparent overflow-scroll-y overflow-x-hidden h-full">
         <div className="flex flex-col lg:flex-row lg:mx-auto min-h-screen max-w-screen-xl font-sans px-7 sm:px-14 lg:px-24 lg:py-0 items-center">
-
+          
           {/* Left Section */}
           <div className="lg:sticky lg:top-0 flex flex-col justify-start lg:justify-between w-1/2 lg:min-h-screen lg:h-screen lg:py-24 sm:py-16 py-7 self-start">
             <header className="min-w-80">

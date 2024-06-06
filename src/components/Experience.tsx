@@ -6,10 +6,10 @@ const Experience = () => {
     
 
     return (
-        <section id="experience">
+        <section id="experience" className="m-5 sm:m-0">
 
             <div className="flex items-end justify-between">
-                <p className="text-lg text-slate-200 tracking-tight pt-20">EXPERIENCE</p>
+                <p className="text-lg text-slate-200 tracking-tight pt-5 sm:pt-20">EXPERIENCE</p>
                 <a href="/resume.pdf" target="_blank">
                     <div className="flex gap-1 items-center group cursor-pointer pr-1">
                         <p className="text-slate-400 text-md font-thin group-hover:text-slate-200 group-hover:pr-1 group-hover:text-teal-300 all-transitions duration-200">View résumé</p>
