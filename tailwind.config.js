@@ -21,14 +21,16 @@ module.exports = {
        '550': '550'
       },
       backgroundImage: {
-        "pfp1": "url('./images/pfp1.png')",
-        "pfp2": "url('./images/1243.png')",
-        "pfp3": "url('./images/pfp3.png')",
+        "me": "url('./images/me.png')",
+        "no": "url('./images/norway.png')",
+        "en-us": "url('./images/united-states.png')",
         "electric1": "url('./images/electric1.PNG')",
         "electric2": "url('./images/electric2.PNG')",
         "electric3": "url('./images/electric3.PNG')",
-        "no": "url('./images/norway.png')",
-        "en-us": "url('./images/united-states.png')"
+        "portofolio1": "url('./images/portofolio1.PNG')",
+        "portofolio2": "url('./images/portofolio2.PNG')",
+        "portofolio3": "url('./images/portofolio3.PNG')",
+        
       },
     },
   },

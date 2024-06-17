@@ -1,6 +1,5 @@
 import '../App.css';
 import { useTranslation } from 'react-i18next';
-import LanguageSwitcher from './LanguageSwitcher';
 
 export const About = () => {
     const { t } = useTranslation();
@@ -9,7 +8,6 @@ export const About = () => {
         <section>
             <div className="flex gap-1 items-center justify-between group cursor-pointer pr-1">
                 <p className="text-lg text-slate-200 tracking-tight uppercase">{t('about')}</p>
-                <LanguageSwitcher/>
             </div>
             
             <hr className="border-slate-500"/>

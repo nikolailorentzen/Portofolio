@@ -1,7 +1,7 @@
 import React from 'react';
 import i18n from '../localization/i18n';
 
-const LanguageSwitcher: React.FC = () => {
+const LanguageSwitcher : React.FC = () => {
   const current = i18n.language
 
   const changeLanguage = (lng: string) => {
@@ -9,9 +9,8 @@ const LanguageSwitcher: React.FC = () => {
   };
 
   return (
-      <div className='flex items-center gap-1 px-1'>
-        <div className={`bg-en-us bg-cover bg-center h-6 w-8 rounded-md filter ${current === "en" ? "grayscale-0" : "grayscale"} hover:grayscale-0 all-transitions duration-300`} onClick={() => changeLanguage('en')} />
-        <div className={`bg-no bg-cover bg-center h-6 w-8 rounded-md filter ${current === "no" ? "grayscale-0" : "grayscale"} hover:grayscale-0 all-transitions duration-300`} onClick={() => changeLanguage('no')} />
+      <div className="flex self-end font-sans">
+          <div className="text-center bg-slate-700 px-1 font-bold rounded-lg text-slate-400 hover:text-teal-300 w-9" onClick={current == "en" ? () => changeLanguage('no') : () => changeLanguage('en')}>{current == "en" ? "EN" : "NO"}</div>
       </div>
   );
 };
