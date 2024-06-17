@@ -10,7 +10,7 @@ const LanguageSwitcher : React.FC = () => {
 
   return (
       <div className="flex self-end font-sans">
-          <div className="text-center bg-slate-700 px-1 font-bold rounded-lg text-slate-400 hover:text-teal-300 w-9" onClick={current == "en" ? () => changeLanguage('no') : () => changeLanguage('en')}>{current == "en" ? "EN" : "NO"}</div>
+          <div className="text-center bg-slate-700 px-1 font-bold rounded-lg text-slate-400 hover:text-teal-300 w-9" onClick={current === "en" ? () => changeLanguage('no') : () => changeLanguage('en')}>{current === "en" ? "EN" : "NO"}</div>
       </div>
   );
 };
